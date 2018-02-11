@@ -1,0 +1,54 @@
+td {
+    background-image: url(images/bg.jpg);
+    width: 135px;
+    height: 135px;
+    border-radius: 10px;
+    transition-property: background-image;
+    transition-duration: 0.5s;
+    border: 3px solid #ffffff;
+    
+}
+table {
+    margin: auto;
+    background-color: #FE8D40;
+    padding: 3px;
+    border-radius: 10px;
+    border-spacing: 5px ;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button {    
+    height: 40px;
+    width: 200px;
+    background: #2F6DC2;
+    color: white;
+    border-radius: 15px;
+    font-size: 14pt;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+header {
+    margin-left: 200px;
+}
+#winMessage {
+    position: absolute;
+    left: 230px;
+    top: 150px;    
+}
+h1{
+    background: #2F6DC2;
+    color: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+.tableBlock {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+}
+
+
